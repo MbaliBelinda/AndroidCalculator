@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -27,11 +26,11 @@
     <GridLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:columnCount="4"
         android:rowCount="4"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/display">
@@ -40,8 +39,8 @@
             android:id="@+id/btnSeven"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 7"
             android:maxWidth="320dp"
             android:text="7" />
@@ -50,8 +49,8 @@
             android:id="@+id/btnEight"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 8"
             android:maxWidth="320dp"
             android:text="8" />
@@ -60,8 +59,8 @@
             android:id="@+id/btnNine"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 9"
             android:maxWidth="320dp"
             android:text="9" />
@@ -70,8 +69,8 @@
             android:id="@+id/btnDivide"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Division operation"
             android:maxWidth="320dp"
             android:text="÷" />
@@ -80,8 +79,8 @@
             android:id="@+id/btnFour"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 4"
             android:maxWidth="320dp"
             android:text="4" />
@@ -90,8 +89,8 @@
             android:id="@+id/btnFive"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 5"
             android:maxWidth="320dp"
             android:text="5" />
@@ -100,8 +99,8 @@
             android:id="@+id/btnSix"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 6"
             android:maxWidth="320dp"
             android:text="6" />
@@ -110,8 +109,8 @@
             android:id="@+id/btnMultiply"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Multiplication operation"
             android:maxWidth="320dp"
             android:text="×" />
@@ -120,8 +119,8 @@
             android:id="@+id/btnOne"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 1"
             android:maxWidth="320dp"
             android:text="1" />
@@ -130,8 +129,8 @@
             android:id="@+id/btnTwo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 2"
             android:maxWidth="320dp"
             android:text="2" />
@@ -140,8 +139,8 @@
             android:id="@+id/btnThree"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 3"
             android:maxWidth="320dp"
             android:text="3" />
@@ -150,8 +149,8 @@
             android:id="@+id/btnSubtract"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Subtraction operation"
             android:maxWidth="320dp"
             android:text="-" />
@@ -160,8 +159,8 @@
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Number 0"
             android:maxWidth="320dp"
             android:text="0" />
@@ -170,8 +169,8 @@
             android:id="@+id/btnClear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Clear calculator"
             android:maxWidth="320dp"
             android:text="C" />
@@ -180,8 +179,8 @@
             android:id="@+id/btnDecimal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Decimal point"
             android:maxWidth="320dp"
             android:text="." />
@@ -190,8 +189,8 @@
             android:id="@+id/btnEquals"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="Calculate result"
             android:maxWidth="320dp"
             android:text="=" />
@@ -200,8 +199,8 @@
             android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:contentDescription="@string/addition_operation"
             android:maxWidth="320dp"
             android:text="+" />

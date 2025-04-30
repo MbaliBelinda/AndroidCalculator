@@ -32,7 +32,13 @@ class MainActivity : AppCompatActivity() {
         )
 
         digits.forEach { (btnId, digit) ->
-            findViewById<Button>(resources.getIdentifier(btnId, "id", packageName)).setOnClickListener {
+            findViewById<Button>(
+                resources.getIdentifier(
+                    btnId,
+                    "id",
+                    packageName
+                )
+            ).setOnClickListener {
                 handleNumberClick(digit)
             }
         }
@@ -44,7 +50,13 @@ class MainActivity : AppCompatActivity() {
             "btnMultiply" to '*',
             "btnDivide" to '/'
         ).forEach { (btnId, op) ->
-            findViewById<Button>(resources.getIdentifier(btnId, "id", packageName)).setOnClickListener {
+            findViewById<Button>(
+                resources.getIdentifier(
+                    btnId,
+                    "id",
+                    packageName
+                )
+            ).setOnClickListener {
                 handleOperationClick(op)
             }
         }
@@ -99,6 +111,7 @@ class MainActivity : AppCompatActivity() {
         isOperationPressed = true
     }
 
+    @SuppressLint("SetTextI18n")
     private fun handleEqualsClick() {
         if (previousNumber.isEmpty() || currentNumber.isEmpty()) return
 
@@ -119,6 +132,7 @@ class MainActivity : AppCompatActivity() {
                     if (num2 == 0.0) throw ArithmeticException("Division by zero")
                     num1 / num2
                 }
+
                 else -> return
             }
 
